@@ -1,0 +1,175 @@
+@import url("https://fonts.googleapis.com/css2?family=Comic+Neue:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #000;
+  color: #fff;
+  overflow: hidden;
+}
+
+p {
+  font-family: "Comic Neue", cursive;
+}
+
+h1,
+h2 {
+  font-family: "Bebas Neue", cursive;
+  letter-spacing: 0.4em;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  font-family: "Bebas Neue", cursive;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.box {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.main-page {
+  width: 100%;
+  height: 100vh;
+  background: url(/images/main.png) no-repeat center center/cover;
+}
+
+.main-page h1 {
+  color: #fff;
+  font-size: 150px;
+  font-family: "Lobster", cursive;
+  text-transform: uppercase;
+  text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #0073e6, 0 0 20px #0073e6,
+    0 0 25px #0073e6, 0 0 30px #0073e6, 0 0 35px #0073e6;
+}
+
+
+
+.main-container .box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+
+.main-container .box .box-content {
+  height: 100vh;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.main-container img {
+  border-radius: 50px;
+  width: 400px;
+  height: 500px;
+  transition: 0.3s;
+}
+
+.main-container img:hover {
+  border-radius: 90px;
+}
+
+.main-page-content {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+}
+
+.main-page-content .mini {
+  color: #000;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  font-size: 24px;
+}
+
+.main-page-content > p {
+  color: #000;
+  font-size: 18px;
+  letter-spacing: 0.7em;
+  text-transform: uppercase;
+  border-bottom: 1px solid #000;
+}
+
+.box-border {
+  border-left: 1px solid #fff;
+  border-right: 1px solid #fff;
+}
+
+.content-detail {
+  padding: 0 10px;
+}
+
+.btn {
+  color: #000;
+  background-color: #fff;
+  padding: 10px 15px;
+  margin: 15px;
+  transition: all 0.5s;
+}
+
+.btn:hover {
+  background-color: rgb(24, 148, 231);
+  border-radius: 10px;
+  color: #fff;
+}
+
+.box .secondary-btn {
+  position: absolute;
+  top: 1210px;
+  left: 10px;
+}
+
+.box .secondary-btn-1 {
+  position: absolute;
+  top: 1210px;
+  left: 60px;
+}
+
+.box .secondary-btn-2 {
+  position: absolute;
+  top: 1835px;
+  left: 60px;
+}
+
+.box .secondary-btn-3 {
+  position: absolute;
+  top: 1835px;
+  left: 10px;
+}
+
+.box .secondary-btn-4 {
+  position: absolute;
+  top: 2460px;
+  left: 60px;
+}
+
+.box .secondary-btn-5 {
+  position: absolute;
+  top: 2460px;
+  left: 10px;
+}
+
+.box .secondary-btn-6{
+    position: absolute;
+    top: 3080px;
+    left: 10px;
+  }
